@@ -1,0 +1,13 @@
+#TASK-1
+def test_jackpot(list):
+   return list[1:] == list[:-1]
+print(test_jackpot(['@', '$', '@']))
+
+
+#TASK-4
+sortByLength = ["Didar", "Erkebulan", "Bekmukhammed", "Dias", "Ayala"] 
+print(f'Before sorting: {sortByLength}') 
+sortByLength.sort(reverse=False)
+print(f'After sorting: {sortByLength}')
+
+
