@@ -10,4 +10,15 @@ print(f'Before sorting: {sortByLength}')
 sortByLength.sort(reverse=False)
 print(f'After sorting: {sortByLength}')
 
+#TASK-2
+def func(list):
+    list1 = []
+    for i in list:
+        list1.append(type(i))
+    print(list1)
+func([1, 1, 1, False])
+
+4
+list1 = ["apple", "microsoft", "google", "facebook", "tiktok", "instagram"]
+print(sorted(list1, key=len))
 
